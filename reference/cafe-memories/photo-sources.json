@@ -1,0 +1,53 @@
+[
+  {
+    "key": "studio",
+    "source": "/Users/fangdi/Desktop/作品集/IMG_6040.JPG",
+    "crop": [
+      300,
+      0,
+      720,
+      720
+    ],
+    "dimensions": [
+      720,
+      720
+    ],
+    "asset": "studio.jpg",
+    "sourceSha256": "424dddf33021dc355ddc86c2b0792bcf33d980c1014970fed34ad882d0e182b0",
+    "sha256": "b4258fc32a7bf75425e1b31dd7cfc4beadb61c027b9876957657aad3ecb7fe80"
+  },
+  {
+    "key": "bamboo",
+    "source": "/Users/fangdi/Desktop/作品集/IMG_6042.JPG",
+    "crop": [
+      300,
+      0,
+      720,
+      720
+    ],
+    "dimensions": [
+      720,
+      720
+    ],
+    "asset": "bamboo.jpg",
+    "sourceSha256": "67bdc115916e220b2e01917acc4efe6a5cfae7a3808dc287501065a54c00cd18",
+    "sha256": "36d7e812fcc9f6bfd434cbab2dd72fcc1b7461dcde817134b423f74959cecaad"
+  },
+  {
+    "key": "neighbors",
+    "source": "/Users/fangdi/Desktop/作品集/IMG_6053.JPG",
+    "crop": [
+      282,
+      0,
+      560,
+      560
+    ],
+    "dimensions": [
+      560,
+      560
+    ],
+    "asset": "neighbors.jpg",
+    "sourceSha256": "a2f726db488d2a3da086ff47b1d810414f200beaa9a5d42c61050bea9780a092",
+    "sha256": "0f9178f89cdfdca6be50d21455655340e3dcec27cf3ede4f2106d0cce69f32c5"
+  }
+]

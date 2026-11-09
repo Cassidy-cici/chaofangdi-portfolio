@@ -1,0 +1,20 @@
+.loader-scene{position:relative;width:214px;height:42px;overflow:hidden}
+.loader-conveyor{position:absolute;left:9px;top:0;height:42px;display:flex;align-items:center;gap:19px;animation:loader-conveyor .5s linear infinite;mask-image:linear-gradient(to right,#000 0%,#000 58%,transparent 100%)}
+.loader-conveyor i{display:block;flex-shrink:0;width:13px;height:13px;border-radius:50%;background:#DED4C2}
+.loader-character{position:absolute;left:0;top:0;width:42px;height:42px;background:#F9F8F6;z-index:1}
+.loader-mouth-top,.loader-mouth-bottom{position:absolute;left:0;width:42px;height:21px;background:#E5B33D}
+.loader-mouth-top{top:0;border-radius:42px 42px 0 0;transform-origin:50% 100%;animation:loader-chomp-top .5s ease-in-out infinite}
+.loader-mouth-bottom{bottom:0;border-radius:0 0 42px 42px;transform-origin:50% 0;animation:loader-chomp-bottom .5s ease-in-out infinite}
+.loader-caption{position:absolute;top:calc(50% + 48px);left:0;right:0;margin:0;text-align:center;font-family:'PingFang SC','Microsoft YaHei',sans-serif;font-size:12px;line-height:1.625;color:#816D70;letter-spacing:1px}
+@keyframes loader-conveyor{to{transform:translateX(-32px)}}
+@keyframes loader-chomp-top{0%,100%{transform:rotate(0)}50%{transform:rotate(-35deg)}}
+@keyframes loader-chomp-bottom{0%,100%{transform:rotate(0)}50%{transform:rotate(35deg)}}
+@media(prefers-reduced-motion:reduce){.loader-conveyor,.loader-mouth-top,.loader-mouth-bottom{animation:none}.loader-mouth-top{transform:rotate(-22deg)}.loader-mouth-bottom{transform:rotate(22deg)}}
+
+/* Conditional page and media readiness; no minimum display duration. */
+html.portfolio-pending body > :not(#portfolio-loader):not(script):not(style):not(link){visibility:hidden}
+body.is-loading{overflow:hidden}
+#portfolio-loader{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:#F9F8F6}
+#portfolio-loader[hidden]{display:none!important}
+.portfolio-media-loader{position:relative;display:grid;place-items:center;height:156px;margin:0 auto;background:#F9F8F6}
+.portfolio-media-loader .loader-caption{top:calc(50% + 33px)}

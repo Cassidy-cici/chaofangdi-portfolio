@@ -1,0 +1,2045 @@
+{
+  "version": "garden-r52-planting-motion",
+  "camera": {
+    "target": [
+      0,
+      3.7,
+      0
+    ],
+    "height": 13.0,
+    "width": 23.6,
+    "eyeY": 7.1,
+    "distance": 35,
+    "magnification": 1.1
+  },
+  "palette": {
+    "grass": "#91ad69",
+    "soil": "#968064",
+    "skyTop": "#7ab2ce",
+    "skyBottom": "#d0e4df",
+    "hill": "#9ab575"
+  },
+  "plants": [
+    {
+      "type": "jacaranda",
+      "x": -10.0,
+      "z": -0.65,
+      "scale": 1,
+      "rotation": 0,
+      "height": 6.5
+    },
+    {
+      "type": "cone",
+      "x": 9.1,
+      "z": -1.4,
+      "scale": 1,
+      "rotation": 0,
+      "variant": "tall",
+      "height": 4.7
+    },
+    {
+      "type": "cone",
+      "x": 10.9,
+      "z": 0.4,
+      "scale": 1,
+      "rotation": 0,
+      "variant": "short",
+      "height": 3.35
+    },
+    {
+      "type": "cone",
+      "x": -8.6,
+      "z": -3.9,
+      "scale": 1,
+      "rotation": 0,
+      "variant": "short",
+      "height": 3.1
+    },
+    {
+      "type": "cone",
+      "x": 7.7,
+      "z": -4.0,
+      "scale": 1,
+      "rotation": 0,
+      "variant": "short",
+      "height": 2.7
+    },
+    {
+      "type": "ball",
+      "x": -10.45,
+      "z": 1.7,
+      "scale": 0.73,
+      "rotation": 0,
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -9.55,
+      "z": 2.55,
+      "scale": 0.7,
+      "rotation": 0,
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": -8.5,
+      "z": -2.4,
+      "scale": 0.7,
+      "rotation": 0,
+      "variant": "s"
+    },
+    {
+      "type": "foxglove",
+      "x": -9.1,
+      "z": 1.5,
+      "scale": 0.85,
+      "rotation": 0,
+      "variant": "pink"
+    },
+    {
+      "type": "foxglove",
+      "x": -10.7,
+      "z": 2.6,
+      "scale": 0.75,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "hydrangea",
+      "x": -9.1,
+      "z": 3.15,
+      "scale": 0.95,
+      "rotation": 0,
+      "variant": "lilac"
+    },
+    {
+      "type": "hydrangea",
+      "x": -8.1,
+      "z": 3.75,
+      "scale": 0.8,
+      "rotation": 0,
+      "variant": "blue"
+    },
+    {
+      "type": "hydrangea",
+      "x": -10.1,
+      "z": 3.8,
+      "scale": 0.68,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "lavender",
+      "x": -8.05,
+      "z": 2.1,
+      "scale": 0.9,
+      "rotation": 0
+    },
+    {
+      "type": "lavender",
+      "x": -8.0,
+      "z": 4.65,
+      "scale": 0.8,
+      "rotation": 0
+    },
+    {
+      "type": "hosta",
+      "x": -10.9,
+      "z": 3.1,
+      "scale": 0.9,
+      "rotation": 0
+    },
+    {
+      "type": "hosta",
+      "x": -7.15,
+      "z": 3.25,
+      "scale": 0.75,
+      "rotation": 0
+    },
+    {
+      "type": "fern",
+      "x": -9.5,
+      "z": 4.7,
+      "scale": 1.15,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": -10.2,
+      "z": 4.75,
+      "scale": 0.8,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": -8.7,
+      "z": 5.35,
+      "scale": 0.65,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": -7.3,
+      "z": 4.3,
+      "scale": 0.68,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": -10.8,
+      "z": 4.1,
+      "scale": 0.85,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": -7.2,
+      "z": 5.2,
+      "scale": 0.65,
+      "rotation": 0
+    },
+    {
+      "type": "ball",
+      "x": 9.7,
+      "z": 1.7,
+      "scale": 0.85,
+      "rotation": 0,
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 8.6,
+      "z": 2.5,
+      "scale": 0.9,
+      "rotation": 0,
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": 11.2,
+      "z": 2.1,
+      "scale": 0.8,
+      "rotation": 0,
+      "variant": "s"
+    },
+    {
+      "type": "foxglove",
+      "x": 8.15,
+      "z": 1.55,
+      "scale": 0.9,
+      "rotation": 0,
+      "variant": "pink"
+    },
+    {
+      "type": "foxglove",
+      "x": 10.0,
+      "z": 2.55,
+      "scale": 0.8,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "hydrangea",
+      "x": 8.2,
+      "z": 3.6,
+      "scale": 0.82,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "hydrangea",
+      "x": 10.3,
+      "z": 3.25,
+      "scale": 0.72,
+      "rotation": 0,
+      "variant": "lilac"
+    },
+    {
+      "type": "lavender",
+      "x": 9.6,
+      "z": 4.0,
+      "scale": 0.95,
+      "rotation": 0
+    },
+    {
+      "type": "rose",
+      "x": 7.25,
+      "z": 4.1,
+      "scale": 0.92,
+      "rotation": 0
+    },
+    {
+      "type": "hosta",
+      "x": 10.8,
+      "z": 3.9,
+      "scale": 0.85,
+      "rotation": 0
+    },
+    {
+      "type": "hosta",
+      "x": 8.9,
+      "z": 4.6,
+      "scale": 0.75,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": 10.2,
+      "z": 4.75,
+      "scale": 0.76,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": 8.0,
+      "z": 4.85,
+      "scale": 0.7,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": 6.8,
+      "z": 4.85,
+      "scale": 0.6,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": 10.6,
+      "z": 4.35,
+      "scale": 0.82,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": 7.7,
+      "z": 5.3,
+      "scale": 0.6,
+      "rotation": 0
+    },
+    {
+      "type": "rose",
+      "x": -5.9,
+      "z": 4.9,
+      "scale": 0.78,
+      "rotation": 0
+    },
+    {
+      "type": "hydrangea",
+      "x": -5.1,
+      "z": 5.55,
+      "scale": 0.55,
+      "rotation": 0,
+      "variant": "lilac"
+    },
+    {
+      "type": "hosta",
+      "x": -6.3,
+      "z": 5.7,
+      "scale": 0.65,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": -4.6,
+      "z": 5.0,
+      "scale": 0.75,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": -3.65,
+      "z": 5.65,
+      "scale": 0.65,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": -3.0,
+      "z": 6.3,
+      "scale": 0.72,
+      "rotation": 0
+    },
+    {
+      "type": "rose",
+      "x": 4.9,
+      "z": 4.65,
+      "scale": 0.8,
+      "rotation": 0
+    },
+    {
+      "type": "hydrangea",
+      "x": 5.8,
+      "z": 5.15,
+      "scale": 0.58,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "hosta",
+      "x": 6.3,
+      "z": 5.9,
+      "scale": 0.72,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": 4.1,
+      "z": 5.6,
+      "scale": 0.75,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": 3.1,
+      "z": 6.0,
+      "scale": 0.6,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": 3.65,
+      "z": 6.85,
+      "scale": 0.7,
+      "rotation": 0
+    },
+    {
+      "type": "ball",
+      "x": -8,
+      "z": -4.6,
+      "scale": 0.85,
+      "rotation": 0,
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -4.9,
+      "z": -4.3,
+      "scale": 0.82,
+      "rotation": 0,
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -4.0,
+      "z": -4.8,
+      "scale": 0.75,
+      "rotation": 0,
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": 4.7,
+      "z": -4.55,
+      "scale": 0.85,
+      "rotation": 0,
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 5.65,
+      "z": -4.15,
+      "scale": 0.65,
+      "rotation": 0,
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": 8.9,
+      "z": -3.85,
+      "scale": 0.75,
+      "rotation": 0,
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": -6.9,
+      "z": -4.5,
+      "scale": 0.72,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "hydrangea",
+      "x": 2.2,
+      "z": -4.7,
+      "scale": 0.8,
+      "rotation": 0,
+      "variant": "lilac"
+    },
+    {
+      "type": "foxglove",
+      "x": -3.0,
+      "z": -4.7,
+      "scale": 0.8,
+      "rotation": 0,
+      "variant": "pink"
+    },
+    {
+      "type": "foxglove",
+      "x": 6.6,
+      "z": -4.5,
+      "scale": 0.8,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "lavender",
+      "x": 3.4,
+      "z": -5.15,
+      "scale": 0.8,
+      "rotation": 0
+    },
+    {
+      "type": "fern",
+      "x": -0.7,
+      "z": -4.6,
+      "scale": 1.2,
+      "rotation": 0
+    },
+    {
+      "type": "fern",
+      "x": -7.5,
+      "z": -3.7,
+      "scale": 0.9,
+      "rotation": 0
+    },
+    {
+      "type": "hosta",
+      "x": -5.9,
+      "z": -5.25,
+      "scale": 0.85,
+      "rotation": 0
+    },
+    {
+      "type": "hosta",
+      "x": 7.3,
+      "z": -5.0,
+      "scale": 0.8,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": -3.4,
+      "z": -5.6,
+      "scale": 0.7,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": 0.9,
+      "z": -5.4,
+      "scale": 0.7,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": 6.6,
+      "z": -5.45,
+      "scale": 0.68,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": 0.6,
+      "z": -4.4,
+      "scale": 0.85,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": -8.7,
+      "z": -4.8,
+      "scale": 0.7,
+      "rotation": 0
+    }
+  ],
+  "stones": [
+    {
+      "x": 0,
+      "z": 2.28,
+      "scale": 1.05,
+      "rotation": 0.1
+    },
+    {
+      "x": -0.18,
+      "z": 3.37,
+      "scale": 1.0,
+      "rotation": -0.4
+    },
+    {
+      "x": -0.12,
+      "z": 4.43,
+      "scale": 0.97,
+      "rotation": 0.23
+    },
+    {
+      "x": 0.25,
+      "z": 5.47,
+      "scale": 0.94,
+      "rotation": -0.2
+    },
+    {
+      "x": 0.57,
+      "z": 6.46,
+      "scale": 0.9,
+      "rotation": 0.4
+    },
+    {
+      "x": 0.63,
+      "z": 7.37,
+      "scale": 0.84,
+      "rotation": -0.25
+    }
+  ],
+  "clouds": [],
+  "terrain": {
+    "baseY": -0.065,
+    "size": 180,
+    "segments": 320
+  },
+  "hillsidePlants": [
+    {
+      "type": "cone",
+      "x": -13.7,
+      "z": -14.5,
+      "scale": 1,
+      "rotation": 1.051,
+      "zone": "left-crest",
+      "variant": "tall",
+      "height": 3.3
+    },
+    {
+      "type": "cone",
+      "x": -16.2,
+      "z": -17.8,
+      "scale": 1,
+      "rotation": 0.299,
+      "zone": "left-crest",
+      "variant": "short",
+      "height": 2.35
+    },
+    {
+      "type": "jacaranda",
+      "x": -19.0,
+      "z": -14.2,
+      "scale": 1,
+      "rotation": 3.478,
+      "zone": "left-crest",
+      "height": 3.7
+    },
+    {
+      "type": "cone",
+      "x": -23.2,
+      "z": -23.6,
+      "scale": 1,
+      "rotation": 3.41,
+      "zone": "left-distant",
+      "variant": "tall",
+      "height": 2.8
+    },
+    {
+      "type": "cone",
+      "x": -20.1,
+      "z": -27.2,
+      "scale": 1,
+      "rotation": 0.444,
+      "zone": "left-distant",
+      "variant": "short",
+      "height": 1.85
+    },
+    {
+      "type": "cone",
+      "x": -14.7,
+      "z": -30.4,
+      "scale": 1,
+      "rotation": 5.27,
+      "zone": "left-distant",
+      "variant": "tall",
+      "height": 2.2
+    },
+    {
+      "type": "cone",
+      "x": 14.1,
+      "z": -15.5,
+      "scale": 1,
+      "rotation": 2.25,
+      "zone": "right-crest",
+      "variant": "tall",
+      "height": 3.4
+    },
+    {
+      "type": "cone",
+      "x": 17.2,
+      "z": -19.2,
+      "scale": 1,
+      "rotation": 5.598,
+      "zone": "right-crest",
+      "variant": "short",
+      "height": 2.45
+    },
+    {
+      "type": "jacaranda",
+      "x": 21.2,
+      "z": -22.5,
+      "scale": 1,
+      "rotation": 3.177,
+      "zone": "right-crest",
+      "height": 3.65
+    },
+    {
+      "type": "cone",
+      "x": 24.6,
+      "z": -28.5,
+      "scale": 1,
+      "rotation": 1.168,
+      "zone": "right-distant",
+      "variant": "tall",
+      "height": 2.65
+    },
+    {
+      "type": "cone",
+      "x": 19.7,
+      "z": -33.5,
+      "scale": 1,
+      "rotation": 5.522,
+      "zone": "right-distant",
+      "variant": "short",
+      "height": 1.8
+    },
+    {
+      "type": "cone",
+      "x": -8.6,
+      "z": -24.2,
+      "scale": 1,
+      "rotation": 1.396,
+      "zone": "rear-meadow",
+      "variant": "tall",
+      "height": 2.6
+    },
+    {
+      "type": "jacaranda",
+      "x": -2.6,
+      "z": -29.6,
+      "scale": 1,
+      "rotation": 1.047,
+      "zone": "rear-meadow",
+      "height": 3.45
+    },
+    {
+      "type": "cone",
+      "x": 6.9,
+      "z": -31.5,
+      "scale": 1,
+      "rotation": 2.098,
+      "zone": "rear-meadow",
+      "variant": "short",
+      "height": 2.15
+    },
+    {
+      "type": "cone",
+      "x": 10.2,
+      "z": -26.3,
+      "scale": 1,
+      "rotation": 2.829,
+      "zone": "rear-meadow",
+      "variant": "tall",
+      "height": 3.05
+    },
+    {
+      "type": "cone",
+      "x": -19.0,
+      "z": 1.8,
+      "scale": 1,
+      "rotation": 4.802,
+      "zone": "left-shoulder",
+      "variant": "tall",
+      "height": 3.8
+    },
+    {
+      "type": "cone",
+      "x": -20.5,
+      "z": 5.4,
+      "scale": 1,
+      "rotation": 2.621,
+      "zone": "left-shoulder",
+      "variant": "short",
+      "height": 2.65
+    },
+    {
+      "type": "jacaranda",
+      "x": 18.2,
+      "z": 3.8,
+      "scale": 1,
+      "rotation": 5.461,
+      "zone": "right-shoulder",
+      "height": 4.35
+    },
+    {
+      "type": "cone",
+      "x": 21.1,
+      "z": 0.6,
+      "scale": 1,
+      "rotation": 2.229,
+      "zone": "right-shoulder",
+      "variant": "short",
+      "height": 3.2
+    },
+    {
+      "type": "ball",
+      "x": -12.9,
+      "z": -10.9,
+      "scale": 0.82,
+      "rotation": 0.503,
+      "zone": "left-crest",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -11.85,
+      "z": -10.2,
+      "scale": 0.78,
+      "rotation": 1.032,
+      "zone": "left-crest",
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": -13.82,
+      "z": -11.35,
+      "scale": 0.6,
+      "rotation": 6.273,
+      "zone": "left-crest",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": -13.85,
+      "z": -9.65,
+      "scale": 0.67,
+      "rotation": 5.724,
+      "zone": "left-crest",
+      "variant": "lilac"
+    },
+    {
+      "type": "foxglove",
+      "x": -11.48,
+      "z": -10.8,
+      "scale": 0.66,
+      "rotation": 1.48,
+      "zone": "left-crest",
+      "variant": "pink"
+    },
+    {
+      "type": "daisy",
+      "x": -12.65,
+      "z": -9.2,
+      "scale": 0.72,
+      "rotation": 0.154,
+      "zone": "left-crest"
+    },
+    {
+      "type": "fern",
+      "x": -14.55,
+      "z": -10.25,
+      "scale": 0.72,
+      "rotation": 5.413,
+      "zone": "left-crest"
+    },
+    {
+      "type": "pebbles",
+      "x": -12.2,
+      "z": -8.95,
+      "scale": 0.65,
+      "rotation": 0.396,
+      "zone": "left-crest"
+    },
+    {
+      "type": "ball",
+      "x": -17.4,
+      "z": -18.7,
+      "scale": 0.697,
+      "rotation": 6.009,
+      "zone": "left-crest",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -18.292,
+      "z": -18.105,
+      "scale": 0.663,
+      "rotation": 5.191,
+      "zone": "left-crest",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": -16.592,
+      "z": -17.637,
+      "scale": 0.5695,
+      "rotation": 6.253,
+      "zone": "left-crest",
+      "variant": "white"
+    },
+    {
+      "type": "lavender",
+      "x": -18.607,
+      "z": -18.615,
+      "scale": 0.561,
+      "rotation": 5.126,
+      "zone": "left-crest"
+    },
+    {
+      "type": "daisy",
+      "x": -17.188,
+      "z": -17.255,
+      "scale": 0.612,
+      "rotation": 5.712,
+      "zone": "left-crest"
+    },
+    {
+      "type": "hosta",
+      "x": -15.997,
+      "z": -18.148,
+      "scale": 0.612,
+      "rotation": 0.551,
+      "zone": "left-crest"
+    },
+    {
+      "type": "ball",
+      "x": -22.4,
+      "z": -25.2,
+      "scale": 0.533,
+      "rotation": 4.474,
+      "zone": "left-distant",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -21.717,
+      "z": -24.745,
+      "scale": 0.507,
+      "rotation": 4.818,
+      "zone": "left-distant",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": -23.017,
+      "z": -24.387,
+      "scale": 0.43550000000000005,
+      "rotation": 3.784,
+      "zone": "left-distant",
+      "variant": "lilac"
+    },
+    {
+      "type": "foxglove",
+      "x": -21.477,
+      "z": -25.135,
+      "scale": 0.42900000000000005,
+      "rotation": 5.11,
+      "zone": "left-distant",
+      "variant": "pink"
+    },
+    {
+      "type": "daisy",
+      "x": -22.237,
+      "z": -24.095,
+      "scale": 0.46799999999999997,
+      "rotation": 4.247,
+      "zone": "left-distant"
+    },
+    {
+      "type": "fern",
+      "x": -23.473,
+      "z": -24.777,
+      "scale": 0.46799999999999997,
+      "rotation": 3.582,
+      "zone": "left-distant"
+    },
+    {
+      "type": "ball",
+      "x": 13.6,
+      "z": -11.1,
+      "scale": 0.8036,
+      "rotation": 0.531,
+      "zone": "right-crest",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 12.571,
+      "z": -10.414,
+      "scale": 0.7644,
+      "rotation": 5.871,
+      "zone": "right-crest",
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": 14.502,
+      "z": -11.541,
+      "scale": 0.588,
+      "rotation": 1.307,
+      "zone": "right-crest",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": 14.531,
+      "z": -9.875,
+      "scale": 0.6566000000000001,
+      "rotation": 0.812,
+      "zone": "right-crest",
+      "variant": "white"
+    },
+    {
+      "type": "lavender",
+      "x": 12.208,
+      "z": -11.002,
+      "scale": 0.6468,
+      "rotation": 5.795,
+      "zone": "right-crest"
+    },
+    {
+      "type": "daisy",
+      "x": 13.845,
+      "z": -9.434,
+      "scale": 0.7056,
+      "rotation": 0.188,
+      "zone": "right-crest"
+    },
+    {
+      "type": "hosta",
+      "x": 15.217,
+      "z": -10.463,
+      "scale": 0.7056,
+      "rotation": 1.481,
+      "zone": "right-crest"
+    },
+    {
+      "type": "pebbles",
+      "x": 12.914,
+      "z": -9.189,
+      "scale": 0.637,
+      "rotation": 5.734,
+      "zone": "right-crest"
+    },
+    {
+      "type": "ball",
+      "x": 18.2,
+      "z": -20.7,
+      "scale": 0.697,
+      "rotation": 0.489,
+      "zone": "right-crest",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 19.092,
+      "z": -20.105,
+      "scale": 0.663,
+      "rotation": 0.939,
+      "zone": "right-crest",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": 17.392,
+      "z": -19.637,
+      "scale": 0.5695,
+      "rotation": 5.87,
+      "zone": "right-crest",
+      "variant": "lilac"
+    },
+    {
+      "type": "foxglove",
+      "x": 19.407,
+      "z": -20.615,
+      "scale": 0.561,
+      "rotation": 1.32,
+      "zone": "right-crest",
+      "variant": "pink"
+    },
+    {
+      "type": "daisy",
+      "x": 18.412,
+      "z": -19.255,
+      "scale": 0.612,
+      "rotation": 0.192,
+      "zone": "right-crest"
+    },
+    {
+      "type": "fern",
+      "x": 16.797,
+      "z": -20.148,
+      "scale": 0.612,
+      "rotation": 5.606,
+      "zone": "right-crest"
+    },
+    {
+      "type": "ball",
+      "x": 23.1,
+      "z": -28.6,
+      "scale": 0.533,
+      "rotation": 0.134,
+      "zone": "right-distant",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 22.418,
+      "z": -28.145,
+      "scale": 0.507,
+      "rotation": 5.792,
+      "zone": "right-distant",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": 23.718,
+      "z": -27.788,
+      "scale": 0.43550000000000005,
+      "rotation": 0.321,
+      "zone": "right-distant",
+      "variant": "white"
+    },
+    {
+      "type": "lavender",
+      "x": 22.177,
+      "z": -28.535,
+      "scale": 0.42900000000000005,
+      "rotation": 5.742,
+      "zone": "right-distant"
+    },
+    {
+      "type": "daisy",
+      "x": 23.263,
+      "z": -27.495,
+      "scale": 0.46799999999999997,
+      "rotation": 6.19,
+      "zone": "right-distant"
+    },
+    {
+      "type": "hosta",
+      "x": 24.173,
+      "z": -28.178,
+      "scale": 0.46799999999999997,
+      "rotation": 0.765,
+      "zone": "right-distant"
+    },
+    {
+      "type": "ball",
+      "x": -8.2,
+      "z": -23,
+      "scale": 0.656,
+      "rotation": 1.308,
+      "zone": "rear-meadow",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -7.36,
+      "z": -22.44,
+      "scale": 0.6240000000000001,
+      "rotation": 1.731,
+      "zone": "rear-meadow",
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": -8.936,
+      "z": -23.36,
+      "scale": 0.48,
+      "rotation": 0.897,
+      "zone": "rear-meadow",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": -8.96,
+      "z": -22.0,
+      "scale": 0.536,
+      "rotation": 0.458,
+      "zone": "rear-meadow",
+      "variant": "white"
+    },
+    {
+      "type": "foxglove",
+      "x": -7.064,
+      "z": -22.92,
+      "scale": 0.528,
+      "rotation": 2.09,
+      "zone": "rear-meadow",
+      "variant": "pink"
+    },
+    {
+      "type": "daisy",
+      "x": -8.0,
+      "z": -21.64,
+      "scale": 0.576,
+      "rotation": 1.028,
+      "zone": "rear-meadow"
+    },
+    {
+      "type": "fern",
+      "x": -9.52,
+      "z": -22.48,
+      "scale": 0.576,
+      "rotation": 0.21,
+      "zone": "rear-meadow"
+    },
+    {
+      "type": "pebbles",
+      "x": -7.64,
+      "z": -21.44,
+      "scale": 0.52,
+      "rotation": 1.222,
+      "zone": "rear-meadow"
+    },
+    {
+      "type": "ball",
+      "x": 1.1,
+      "z": -28.7,
+      "scale": 0.656,
+      "rotation": 3.395,
+      "zone": "rear-meadow",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 0.26,
+      "z": -28.14,
+      "scale": 0.6240000000000001,
+      "rotation": 2.625,
+      "zone": "rear-meadow",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": 1.86,
+      "z": -27.7,
+      "scale": 0.536,
+      "rotation": 3.624,
+      "zone": "rear-meadow",
+      "variant": "lilac"
+    },
+    {
+      "type": "lavender",
+      "x": -0.036,
+      "z": -28.62,
+      "scale": 0.528,
+      "rotation": 2.563,
+      "zone": "rear-meadow"
+    },
+    {
+      "type": "daisy",
+      "x": 1.3,
+      "z": -27.34,
+      "scale": 0.576,
+      "rotation": 3.115,
+      "zone": "rear-meadow"
+    },
+    {
+      "type": "hosta",
+      "x": 2.42,
+      "z": -28.18,
+      "scale": 0.576,
+      "rotation": 4.171,
+      "zone": "rear-meadow"
+    },
+    {
+      "type": "ball",
+      "x": 9.2,
+      "z": -24.3,
+      "scale": 0.697,
+      "rotation": 1.499,
+      "zone": "rear-meadow",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 10.092,
+      "z": -23.705,
+      "scale": 0.663,
+      "rotation": 1.948,
+      "zone": "rear-meadow",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": 8.393,
+      "z": -23.238,
+      "scale": 0.5695,
+      "rotation": 0.596,
+      "zone": "rear-meadow",
+      "variant": "white"
+    },
+    {
+      "type": "foxglove",
+      "x": 10.407,
+      "z": -24.215,
+      "scale": 0.561,
+      "rotation": 2.329,
+      "zone": "rear-meadow",
+      "variant": "pink"
+    },
+    {
+      "type": "daisy",
+      "x": 9.412,
+      "z": -22.855,
+      "scale": 0.612,
+      "rotation": 1.202,
+      "zone": "rear-meadow"
+    },
+    {
+      "type": "fern",
+      "x": 7.797,
+      "z": -23.748,
+      "scale": 0.612,
+      "rotation": 0.332,
+      "zone": "rear-meadow"
+    },
+    {
+      "type": "ball",
+      "x": -15.2,
+      "z": -2.2,
+      "scale": 0.82,
+      "rotation": 2.456,
+      "zone": "left-shoulder",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -16.25,
+      "z": -1.5,
+      "scale": 0.78,
+      "rotation": 1.494,
+      "zone": "left-shoulder",
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": -14.28,
+      "z": -2.65,
+      "scale": 0.6,
+      "rotation": 3.249,
+      "zone": "left-shoulder",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": -14.25,
+      "z": -0.95,
+      "scale": 0.67,
+      "rotation": 2.743,
+      "zone": "left-shoulder",
+      "variant": "lilac"
+    },
+    {
+      "type": "lavender",
+      "x": -16.62,
+      "z": -2.1,
+      "scale": 0.66,
+      "rotation": 1.417,
+      "zone": "left-shoulder"
+    },
+    {
+      "type": "daisy",
+      "x": -14.95,
+      "z": -0.5,
+      "scale": 0.72,
+      "rotation": 2.107,
+      "zone": "left-shoulder"
+    },
+    {
+      "type": "hosta",
+      "x": -13.55,
+      "z": -1.55,
+      "scale": 0.72,
+      "rotation": 3.426,
+      "zone": "left-shoulder"
+    },
+    {
+      "type": "pebbles",
+      "x": -15.9,
+      "z": -0.25,
+      "scale": 0.65,
+      "rotation": 1.355,
+      "zone": "left-shoulder"
+    },
+    {
+      "type": "ball",
+      "x": 15.2,
+      "z": -1.7,
+      "scale": 0.82,
+      "rotation": 5.036,
+      "zone": "right-shoulder",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 16.25,
+      "z": -1.0,
+      "scale": 0.78,
+      "rotation": 5.564,
+      "zone": "right-shoulder",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": 14.25,
+      "z": -0.45,
+      "scale": 0.67,
+      "rotation": 3.974,
+      "zone": "right-shoulder",
+      "variant": "white"
+    },
+    {
+      "type": "foxglove",
+      "x": 16.62,
+      "z": -1.6,
+      "scale": 0.66,
+      "rotation": 6.013,
+      "zone": "right-shoulder",
+      "variant": "pink"
+    },
+    {
+      "type": "daisy",
+      "x": 15.45,
+      "z": 0.0,
+      "scale": 0.72,
+      "rotation": 4.686,
+      "zone": "right-shoulder"
+    },
+    {
+      "type": "fern",
+      "x": 13.55,
+      "z": -1.05,
+      "scale": 0.72,
+      "rotation": 3.663,
+      "zone": "right-shoulder"
+    },
+    {
+      "type": "ball",
+      "x": -12.8,
+      "z": 4.8,
+      "scale": 0.66,
+      "rotation": 1.99,
+      "zone": "slope-transition",
+      "variant": "s"
+    },
+    {
+      "type": "daisy",
+      "x": -12.1,
+      "z": 5.7,
+      "scale": 0.65,
+      "rotation": 2.208,
+      "zone": "slope-transition"
+    },
+    {
+      "type": "ball",
+      "x": -14.4,
+      "z": 2.6,
+      "scale": 0.66,
+      "rotation": 1.536,
+      "zone": "slope-transition",
+      "variant": "s"
+    },
+    {
+      "type": "daisy",
+      "x": -15.1,
+      "z": 3.5,
+      "scale": 0.65,
+      "rotation": 0.76,
+      "zone": "slope-transition"
+    },
+    {
+      "type": "ball",
+      "x": 12.5,
+      "z": 5.7,
+      "scale": 0.66,
+      "rotation": 0.825,
+      "zone": "slope-transition",
+      "variant": "s"
+    },
+    {
+      "type": "daisy",
+      "x": 13.2,
+      "z": 6.6,
+      "scale": 0.65,
+      "rotation": 1.043,
+      "zone": "slope-transition"
+    },
+    {
+      "type": "ball",
+      "x": 14.7,
+      "z": 2.9,
+      "scale": 0.66,
+      "rotation": 3.255,
+      "zone": "slope-transition",
+      "variant": "s"
+    },
+    {
+      "type": "daisy",
+      "x": 14.0,
+      "z": 3.8,
+      "scale": 0.65,
+      "rotation": 2.479,
+      "zone": "slope-transition"
+    },
+    {
+      "type": "ball",
+      "x": -11.8,
+      "z": -7.4,
+      "scale": 0.66,
+      "rotation": 0.199,
+      "zone": "slope-transition",
+      "variant": "s"
+    },
+    {
+      "type": "daisy",
+      "x": -11.1,
+      "z": -6.5,
+      "scale": 0.65,
+      "rotation": 0.417,
+      "zone": "slope-transition"
+    },
+    {
+      "type": "ball",
+      "x": 11.9,
+      "z": -7.7,
+      "scale": 0.66,
+      "rotation": 4.553,
+      "zone": "slope-transition",
+      "variant": "s"
+    },
+    {
+      "type": "daisy",
+      "x": 11.2,
+      "z": -6.8,
+      "scale": 0.65,
+      "rotation": 3.777,
+      "zone": "slope-transition"
+    }
+  ],
+  "hillsideDesign": {
+    "treeGroups": "unequal groups of 2–3 along hill shoulders, with open gaps",
+    "underplanting": "offset shrubs with restrained lilac/white flower accents, hosta and fern; no ornamental grass or grass tufts",
+    "depth": "smaller trees and quieter flowers on the far slopes; near garden and house framing preserved"
+  },
+  "rearPlants": [
+    {
+      "type": "cone",
+      "x": -7.4,
+      "z": -10.4,
+      "scale": 1,
+      "rotation": 5.469,
+      "zone": "rear-grove",
+      "variant": "tall",
+      "height": 3.8
+    },
+    {
+      "type": "cone",
+      "x": -9.8,
+      "z": -12.2,
+      "scale": 1,
+      "rotation": 4.623,
+      "zone": "rear-grove",
+      "variant": "short",
+      "height": 2.5
+    },
+    {
+      "type": "jacaranda",
+      "x": -4.1,
+      "z": -15.1,
+      "scale": 1,
+      "rotation": 3.004,
+      "zone": "rear-grove",
+      "height": 4.6
+    },
+    {
+      "type": "cone",
+      "x": -1.9,
+      "z": -13.6,
+      "scale": 1,
+      "rotation": 3.835,
+      "zone": "rear-grove",
+      "variant": "short",
+      "height": 3.1
+    },
+    {
+      "type": "jacaranda",
+      "x": 6.8,
+      "z": -10.5,
+      "scale": 1,
+      "rotation": 1.886,
+      "zone": "rear-grove",
+      "height": 4.3
+    },
+    {
+      "type": "cone",
+      "x": 9.3,
+      "z": -13.3,
+      "scale": 1,
+      "rotation": 4.497,
+      "zone": "rear-grove",
+      "variant": "tall",
+      "height": 3.1
+    },
+    {
+      "type": "cone",
+      "x": 3.9,
+      "z": -18,
+      "scale": 1,
+      "rotation": 2.834,
+      "zone": "rear-grove",
+      "variant": "tall",
+      "height": 4.0
+    },
+    {
+      "type": "cone",
+      "x": 1.2,
+      "z": -20.5,
+      "scale": 1,
+      "rotation": 2.058,
+      "zone": "rear-grove",
+      "variant": "short",
+      "height": 2.5
+    },
+    {
+      "type": "cone",
+      "variant": "tall",
+      "x": -2.5,
+      "z": -7.5,
+      "scale": 1,
+      "rotation": 1.2,
+      "height": 3.2,
+      "zone": "rear-replacement-tree"
+    },
+    {
+      "type": "ball",
+      "x": 8.6,
+      "z": -9.6,
+      "scale": 0.7979999999999999,
+      "rotation": 2.687,
+      "zone": "rear-garden",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 9.645,
+      "z": -9.163,
+      "scale": 0.741,
+      "rotation": 3.183,
+      "zone": "rear-garden",
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": 7.707,
+      "z": -10.122,
+      "scale": 0.646,
+      "rotation": 2.318,
+      "zone": "rear-garden",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": 7.792,
+      "z": -8.726,
+      "scale": 0.6649999999999999,
+      "rotation": 1.855,
+      "zone": "rear-garden",
+      "variant": "white"
+    },
+    {
+      "type": "foxglove",
+      "x": 9.845,
+      "z": -10.075,
+      "scale": 0.6649999999999999,
+      "rotation": 3.647,
+      "zone": "rear-garden",
+      "variant": "white"
+    },
+    {
+      "type": "daisy",
+      "x": 8.695,
+      "z": -8.251,
+      "scale": 0.7124999999999999,
+      "rotation": 2.248,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "hosta",
+      "x": 7.232,
+      "z": -9.572,
+      "scale": 0.7314999999999999,
+      "rotation": 1.814,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "ball",
+      "x": -9.7,
+      "z": -14.7,
+      "scale": 0.714,
+      "rotation": 5.611,
+      "zone": "rear-garden",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -10.635,
+      "z": -14.309,
+      "scale": 0.663,
+      "rotation": 4.877,
+      "zone": "rear-garden",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": -8.977,
+      "z": -13.918,
+      "scale": 0.595,
+      "rotation": 5.777,
+      "zone": "rear-garden",
+      "variant": "white"
+    },
+    {
+      "type": "lavender",
+      "x": -10.813,
+      "z": -15.125,
+      "scale": 0.595,
+      "rotation": 5.067,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "daisy",
+      "x": -9.615,
+      "z": -13.493,
+      "scale": 0.6375,
+      "rotation": 5.218,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "fern",
+      "x": -8.476,
+      "z": -14.675,
+      "scale": 0.6545,
+      "rotation": 0.09,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "pebbles",
+      "x": -10.38,
+      "z": -13.484,
+      "scale": 0.595,
+      "rotation": 4.733,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "ball",
+      "x": -4.5,
+      "z": -11.8,
+      "scale": 0.882,
+      "rotation": 1.531,
+      "zone": "rear-garden",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -3.345,
+      "z": -11.317,
+      "scale": 0.8190000000000001,
+      "rotation": 2.08,
+      "zone": "rear-garden",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": -5.393,
+      "z": -10.834,
+      "scale": 0.735,
+      "rotation": 0.611,
+      "zone": "rear-garden",
+      "variant": "lilac"
+    },
+    {
+      "type": "foxglove",
+      "x": -3.124,
+      "z": -12.325,
+      "scale": 0.735,
+      "rotation": 2.592,
+      "zone": "rear-garden",
+      "variant": "white"
+    },
+    {
+      "type": "daisy",
+      "x": -4.395,
+      "z": -10.309,
+      "scale": 0.7875000000000001,
+      "rotation": 1.045,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "hosta",
+      "x": -6.012,
+      "z": -11.769,
+      "scale": 0.8085000000000001,
+      "rotation": 0.567,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "ball",
+      "x": 0.5,
+      "z": -11.5,
+      "scale": 0.7392,
+      "rotation": 4.57,
+      "zone": "rear-garden",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -0.468,
+      "z": -11.095,
+      "scale": 0.6864,
+      "rotation": 3.81,
+      "zone": "rear-garden",
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": 1.327,
+      "z": -11.984,
+      "scale": 0.5984,
+      "rotation": 5.27,
+      "zone": "rear-garden",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": 1.248,
+      "z": -10.69,
+      "scale": 0.616,
+      "rotation": 4.742,
+      "zone": "rear-garden",
+      "variant": "white"
+    },
+    {
+      "type": "lavender",
+      "x": -0.653,
+      "z": -11.94,
+      "scale": 0.616,
+      "rotation": 4.007,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "daisy",
+      "x": 0.588,
+      "z": -10.25,
+      "scale": 0.66,
+      "rotation": 4.163,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "fern",
+      "x": 1.767,
+      "z": -11.474,
+      "scale": 0.6776,
+      "rotation": 5.359,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "ball",
+      "x": 5.7,
+      "z": -15.2,
+      "scale": 0.84,
+      "rotation": 2.932,
+      "zone": "rear-garden",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 6.8,
+      "z": -14.74,
+      "scale": 0.78,
+      "rotation": 3.455,
+      "zone": "rear-garden",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": 4.85,
+      "z": -14.28,
+      "scale": 0.7,
+      "rotation": 2.056,
+      "zone": "rear-garden",
+      "variant": "lilac"
+    },
+    {
+      "type": "foxglove",
+      "x": 7.01,
+      "z": -15.7,
+      "scale": 0.7,
+      "rotation": 3.942,
+      "zone": "rear-garden",
+      "variant": "white"
+    },
+    {
+      "type": "daisy",
+      "x": 5.8,
+      "z": -13.78,
+      "scale": 0.75,
+      "rotation": 2.469,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "hosta",
+      "x": 4.26,
+      "z": -15.17,
+      "scale": 0.77,
+      "rotation": 2.014,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "pebbles",
+      "x": 6.5,
+      "z": -13.77,
+      "scale": 0.7,
+      "rotation": 2.907,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "ball",
+      "x": -2,
+      "z": -18.2,
+      "scale": 0.714,
+      "rotation": 5.474,
+      "zone": "rear-garden",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": -2.935,
+      "z": -17.809,
+      "scale": 0.663,
+      "rotation": 4.74,
+      "zone": "rear-garden",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": -1.278,
+      "z": -17.418,
+      "scale": 0.595,
+      "rotation": 5.64,
+      "zone": "rear-garden",
+      "variant": "white"
+    },
+    {
+      "type": "lavender",
+      "x": -3.114,
+      "z": -18.625,
+      "scale": 0.595,
+      "rotation": 4.93,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "daisy",
+      "x": -1.915,
+      "z": -16.993,
+      "scale": 0.6375,
+      "rotation": 5.081,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "fern",
+      "x": -0.776,
+      "z": -18.174,
+      "scale": 0.6545,
+      "rotation": 6.236,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "ball",
+      "x": 2.4,
+      "z": -22,
+      "scale": 0.672,
+      "rotation": 3.369,
+      "zone": "rear-garden",
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 3.28,
+      "z": -21.632,
+      "scale": 0.6240000000000001,
+      "rotation": 3.787,
+      "zone": "rear-garden",
+      "variant": "s"
+    },
+    {
+      "type": "ball",
+      "x": 1.648,
+      "z": -22.44,
+      "scale": 0.544,
+      "rotation": 3.058,
+      "zone": "rear-garden",
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": 1.72,
+      "z": -21.264,
+      "scale": 0.5599999999999999,
+      "rotation": 2.668,
+      "zone": "rear-garden",
+      "variant": "lilac"
+    },
+    {
+      "type": "foxglove",
+      "x": 3.448,
+      "z": -22.4,
+      "scale": 0.5599999999999999,
+      "rotation": 4.177,
+      "zone": "rear-garden",
+      "variant": "white"
+    },
+    {
+      "type": "daisy",
+      "x": 2.48,
+      "z": -20.864,
+      "scale": 0.6000000000000001,
+      "rotation": 2.999,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "hosta",
+      "x": 1.248,
+      "z": -21.976,
+      "scale": 0.6160000000000001,
+      "rotation": 2.634,
+      "zone": "rear-garden"
+    },
+    {
+      "type": "rose",
+      "x": -6.7,
+      "z": -7.6,
+      "scale": 1.35,
+      "rotation": 1.15,
+      "zone": "rear-white-rose"
+    },
+    {
+      "type": "rose",
+      "x": 4.3,
+      "z": -7.8,
+      "scale": 1.25,
+      "rotation": 0.35,
+      "zone": "rear-white-rose"
+    }
+  ],
+  "rearDesign": {
+    "depth": "near-wall low flower pockets, middle-depth mixed groves, distant hill groups",
+    "composition": "staggered asymmetric planting islands with winding grass gaps; taller plants toward the far side"
+  }
+}

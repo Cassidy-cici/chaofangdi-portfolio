@@ -1,0 +1,890 @@
+{
+  "version": "garden-r55-open-background",
+  "camera": {
+    "target": [
+      0,
+      3.7,
+      0
+    ],
+    "height": 13.0,
+    "width": 23.6,
+    "eyeY": 7.1,
+    "distance": 35,
+    "magnification": 1.1
+  },
+  "palette": {
+    "grass": "#91ad69",
+    "soil": "#968064",
+    "skyTop": "#7ab2ce",
+    "skyBottom": "#d0e4df",
+    "hill": "#9ab575"
+  },
+  "plants": [
+    {
+      "type": "jacaranda",
+      "x": -8.8,
+      "z": 1.0,
+      "scale": 1,
+      "rotation": 0,
+      "height": 4.9
+    },
+    {
+      "type": "cone",
+      "x": 9.4,
+      "z": -2.6,
+      "scale": 1,
+      "rotation": 0,
+      "variant": "tall",
+      "height": 3.75
+    },
+    {
+      "type": "cone",
+      "x": 11.5,
+      "z": -6,
+      "scale": 1,
+      "rotation": 0,
+      "variant": "short",
+      "height": 2.6
+    },
+    {
+      "type": "cone",
+      "x": -8.1,
+      "z": -4.8,
+      "scale": 1,
+      "rotation": 0,
+      "variant": "short",
+      "height": 2.25
+    },
+    {
+      "type": "ball",
+      "x": -8.7,
+      "z": 1.9,
+      "scale": 0.67,
+      "rotation": 0,
+      "variant": "s"
+    },
+    {
+      "type": "hydrangea",
+      "x": -9.2,
+      "z": 2.8,
+      "scale": 0.8,
+      "rotation": 0,
+      "variant": "lilac"
+    },
+    {
+      "type": "hydrangea",
+      "x": -10,
+      "z": 2.7,
+      "scale": 0.62,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "lavender",
+      "x": -8.2,
+      "z": 3.4,
+      "scale": 0.66,
+      "rotation": 0
+    },
+    {
+      "type": "hosta",
+      "x": -7.6,
+      "z": 3.1,
+      "scale": 0.63,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": -8.1,
+      "z": 4.4,
+      "scale": 0.72,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": -7.2,
+      "z": 4.1,
+      "scale": 0.6,
+      "rotation": 0
+    },
+    {
+      "type": "ball",
+      "x": 9.2,
+      "z": 0.5,
+      "scale": 0.74,
+      "rotation": 0,
+      "variant": "m"
+    },
+    {
+      "type": "ball",
+      "x": 8.6,
+      "z": 1.45,
+      "scale": 0.75,
+      "rotation": 0,
+      "variant": "s"
+    },
+    {
+      "type": "foxglove",
+      "x": 9.3,
+      "z": 2.3,
+      "scale": 0.62,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "hydrangea",
+      "x": 8.8,
+      "z": 2.7,
+      "scale": 0.72,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "hydrangea",
+      "x": 10,
+      "z": 2.5,
+      "scale": 0.65,
+      "rotation": 0,
+      "variant": "lilac"
+    },
+    {
+      "type": "hosta",
+      "x": 8.2,
+      "z": 3.2,
+      "scale": 0.65,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": 8,
+      "z": 4.1,
+      "scale": 0.7,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": 7.4,
+      "z": 4.4,
+      "scale": 0.6,
+      "rotation": 0
+    },
+    {
+      "type": "hydrangea",
+      "x": -4.8,
+      "z": 5.2,
+      "scale": 0.82,
+      "rotation": 0,
+      "variant": "blue",
+      "scaleXYZ": [
+        1.08,
+        1,
+        1.05
+      ],
+      "grounded": true,
+      "lowGrowing": true
+    },
+    {
+      "type": "daisy",
+      "x": -3.8,
+      "z": 5.7,
+      "scale": 0.7,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": -2.9,
+      "z": 6.1,
+      "scale": 0.58,
+      "rotation": 0
+    },
+    {
+      "type": "rose",
+      "x": 4.9,
+      "z": 5.3,
+      "scale": 0.8,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": 3.9,
+      "z": 5.8,
+      "scale": 0.65,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": 3,
+      "z": 6.3,
+      "scale": 0.62,
+      "rotation": 0
+    },
+    {
+      "type": "hydrangea",
+      "x": -6.9,
+      "z": -4.5,
+      "scale": 0.634,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "hydrangea",
+      "x": 2.2,
+      "z": -4.7,
+      "scale": 0.704,
+      "rotation": 0,
+      "variant": "lilac"
+    },
+    {
+      "type": "foxglove",
+      "x": 6.6,
+      "z": -4.5,
+      "scale": 0.704,
+      "rotation": 0,
+      "variant": "white"
+    },
+    {
+      "type": "fern",
+      "x": -0.7,
+      "z": -4.6,
+      "scale": 0.82,
+      "rotation": 0
+    },
+    {
+      "type": "hosta",
+      "x": -5.9,
+      "z": -5.25,
+      "scale": 0.748,
+      "rotation": 0
+    },
+    {
+      "type": "hosta",
+      "x": 7.3,
+      "z": -5.0,
+      "scale": 0.704,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": -3.4,
+      "z": -5.6,
+      "scale": 0.616,
+      "rotation": 0
+    },
+    {
+      "type": "daisy",
+      "x": 6.6,
+      "z": -5.45,
+      "scale": 0.598,
+      "rotation": 0
+    },
+    {
+      "type": "pebbles",
+      "x": 0.6,
+      "z": -4.4,
+      "scale": 0.748,
+      "rotation": 0
+    }
+  ],
+  "stones": [
+    {
+      "x": 0,
+      "z": 2.28,
+      "scale": 1.05,
+      "rotation": 0.1
+    },
+    {
+      "x": -0.18,
+      "z": 3.37,
+      "scale": 1.0,
+      "rotation": -0.4
+    },
+    {
+      "x": -0.12,
+      "z": 4.43,
+      "scale": 0.97,
+      "rotation": 0.23
+    },
+    {
+      "x": 0.25,
+      "z": 5.47,
+      "scale": 0.94,
+      "rotation": -0.2
+    },
+    {
+      "x": 0.57,
+      "z": 6.46,
+      "scale": 0.9,
+      "rotation": 0.4
+    },
+    {
+      "x": 0.63,
+      "z": 7.37,
+      "scale": 0.84,
+      "rotation": -0.25
+    }
+  ],
+  "clouds": [],
+  "terrain": {
+    "baseY": -0.065,
+    "size": 180,
+    "segments": 320
+  },
+  "hillsidePlants": [
+    {
+      "type": "jacaranda",
+      "x": -19.0,
+      "z": -14.2,
+      "scale": 1,
+      "rotation": 3.478,
+      "zone": "left-crest",
+      "height": 3.26
+    },
+    {
+      "type": "cone",
+      "x": -23.2,
+      "z": -23.6,
+      "scale": 1,
+      "rotation": 3.41,
+      "zone": "left-distant",
+      "variant": "tall",
+      "height": 2.44
+    },
+    {
+      "type": "cone",
+      "x": -14.7,
+      "z": -30.4,
+      "scale": 1,
+      "rotation": 5.27,
+      "zone": "left-distant",
+      "variant": "tall",
+      "height": 1.91
+    },
+    {
+      "type": "cone",
+      "x": 14.1,
+      "z": -15.5,
+      "scale": 1,
+      "rotation": 2.25,
+      "zone": "right-crest",
+      "variant": "tall",
+      "height": 2.96
+    },
+    {
+      "type": "jacaranda",
+      "x": 21.2,
+      "z": -22.5,
+      "scale": 1,
+      "rotation": 3.177,
+      "zone": "right-crest",
+      "height": 3.21
+    },
+    {
+      "type": "cone",
+      "x": 24.6,
+      "z": -28.5,
+      "scale": 1,
+      "rotation": 1.168,
+      "zone": "right-distant",
+      "variant": "tall",
+      "height": 2.31
+    },
+    {
+      "type": "cone",
+      "x": 19.7,
+      "z": -33.5,
+      "scale": 1,
+      "rotation": 5.522,
+      "zone": "right-distant",
+      "variant": "short",
+      "height": 1.57
+    },
+    {
+      "type": "cone",
+      "x": -8.6,
+      "z": -24.2,
+      "scale": 1,
+      "rotation": 1.396,
+      "zone": "rear-meadow",
+      "variant": "tall",
+      "height": 2.26
+    },
+    {
+      "type": "jacaranda",
+      "x": -2.6,
+      "z": -29.6,
+      "scale": 1,
+      "rotation": 1.047,
+      "zone": "rear-meadow",
+      "height": 3.04
+    },
+    {
+      "type": "cone",
+      "x": 10.2,
+      "z": -26.3,
+      "scale": 1,
+      "rotation": 2.829,
+      "zone": "rear-meadow",
+      "variant": "tall",
+      "height": 2.65
+    },
+    {
+      "type": "cone",
+      "x": -19.0,
+      "z": 1.8,
+      "scale": 1,
+      "rotation": 4.802,
+      "zone": "left-shoulder",
+      "variant": "tall",
+      "height": 3.31
+    },
+    {
+      "type": "jacaranda",
+      "x": 18.2,
+      "z": 3.8,
+      "scale": 1,
+      "rotation": 5.461,
+      "zone": "right-shoulder",
+      "height": 3.83
+    },
+    {
+      "type": "cone",
+      "x": 21.1,
+      "z": 0.6,
+      "scale": 1,
+      "rotation": 2.229,
+      "zone": "right-shoulder",
+      "variant": "short",
+      "height": 2.78
+    },
+    {
+      "type": "hydrangea",
+      "x": -23.017,
+      "z": -24.387,
+      "scale": 0.392,
+      "rotation": 3.784,
+      "zone": "left-distant",
+      "variant": "lilac",
+      "pocket": "hillside-03"
+    },
+    {
+      "type": "daisy",
+      "x": -22.237,
+      "z": -24.095,
+      "scale": 0.421,
+      "rotation": 4.247,
+      "zone": "left-distant",
+      "pocket": "hillside-03"
+    },
+    {
+      "type": "hydrangea",
+      "x": 14.531,
+      "z": -9.875,
+      "scale": 0.591,
+      "rotation": 0.812,
+      "zone": "right-crest",
+      "variant": "white",
+      "pocket": "hillside-04"
+    },
+    {
+      "type": "hosta",
+      "x": 15.217,
+      "z": -10.463,
+      "scale": 0.635,
+      "rotation": 1.481,
+      "zone": "right-crest",
+      "pocket": "hillside-04"
+    },
+    {
+      "type": "hydrangea",
+      "x": 17.392,
+      "z": -19.637,
+      "scale": 0.513,
+      "rotation": 5.87,
+      "zone": "right-crest",
+      "variant": "lilac",
+      "pocket": "hillside-05"
+    },
+    {
+      "type": "daisy",
+      "x": 18.412,
+      "z": -19.255,
+      "scale": 0.551,
+      "rotation": 0.192,
+      "zone": "right-crest",
+      "pocket": "hillside-05"
+    },
+    {
+      "type": "hydrangea",
+      "x": 23.718,
+      "z": -27.788,
+      "scale": 0.392,
+      "rotation": 0.321,
+      "zone": "right-distant",
+      "variant": "white",
+      "pocket": "hillside-06"
+    },
+    {
+      "type": "daisy",
+      "x": 23.263,
+      "z": -27.495,
+      "scale": 0.421,
+      "rotation": 6.19,
+      "zone": "right-distant",
+      "pocket": "hillside-06"
+    },
+    {
+      "type": "hydrangea",
+      "x": -8.96,
+      "z": -22.0,
+      "scale": 0.482,
+      "rotation": 0.458,
+      "zone": "rear-meadow",
+      "variant": "white",
+      "pocket": "hillside-07"
+    },
+    {
+      "type": "daisy",
+      "x": -8.0,
+      "z": -21.64,
+      "scale": 0.518,
+      "rotation": 1.028,
+      "zone": "rear-meadow",
+      "pocket": "hillside-07"
+    },
+    {
+      "type": "hydrangea",
+      "x": 1.86,
+      "z": -27.7,
+      "scale": 0.482,
+      "rotation": 3.624,
+      "zone": "rear-meadow",
+      "variant": "lilac",
+      "pocket": "hillside-08"
+    },
+    {
+      "type": "daisy",
+      "x": 1.3,
+      "z": -27.34,
+      "scale": 0.518,
+      "rotation": 3.115,
+      "zone": "rear-meadow",
+      "pocket": "hillside-08"
+    },
+    {
+      "type": "hydrangea",
+      "x": 8.393,
+      "z": -23.238,
+      "scale": 0.513,
+      "rotation": 0.596,
+      "zone": "rear-meadow",
+      "variant": "white",
+      "pocket": "hillside-09"
+    },
+    {
+      "type": "daisy",
+      "x": 9.412,
+      "z": -22.855,
+      "scale": 0.551,
+      "rotation": 1.202,
+      "zone": "rear-meadow",
+      "pocket": "hillside-09"
+    },
+    {
+      "type": "hydrangea",
+      "x": -14.25,
+      "z": -0.95,
+      "scale": 0.603,
+      "rotation": 2.743,
+      "zone": "left-shoulder",
+      "variant": "lilac",
+      "pocket": "hillside-10"
+    },
+    {
+      "type": "hosta",
+      "x": -13.55,
+      "z": -1.55,
+      "scale": 0.648,
+      "rotation": 3.426,
+      "zone": "left-shoulder",
+      "pocket": "hillside-10"
+    },
+    {
+      "type": "pebbles",
+      "x": -15.9,
+      "z": -0.25,
+      "scale": 0.585,
+      "rotation": 1.355,
+      "zone": "left-shoulder",
+      "pocket": "hillside-10"
+    },
+    {
+      "type": "hydrangea",
+      "x": 14.25,
+      "z": -0.45,
+      "scale": 0.603,
+      "rotation": 3.974,
+      "zone": "right-shoulder",
+      "variant": "white",
+      "pocket": "hillside-11"
+    },
+    {
+      "type": "fern",
+      "x": 13.55,
+      "z": -1.05,
+      "scale": 0.648,
+      "rotation": 3.663,
+      "zone": "right-shoulder",
+      "pocket": "hillside-11"
+    },
+    {
+      "type": "daisy",
+      "x": -12.1,
+      "z": 5.7,
+      "scale": 0.65,
+      "rotation": 2.208,
+      "zone": "slope-transition"
+    },
+    {
+      "type": "daisy",
+      "x": 14.0,
+      "z": 3.8,
+      "scale": 0.65,
+      "rotation": 2.479,
+      "zone": "slope-transition"
+    }
+  ],
+  "hillsideDesign": {
+    "treeGroups": "separated pairs with one taller accent and quieter companions",
+    "underplanting": "restrained groups of shrubs, one lilac/white flower accent and one low leaf or daisy clump",
+    "depth": "smaller trees and quieter flowers on the far slopes; near garden and house framing preserved"
+  },
+  "rearPlants": [
+    {
+      "type": "cone",
+      "x": -7.4,
+      "z": -10.4,
+      "scale": 1,
+      "rotation": 5.469,
+      "zone": "rear-grove",
+      "variant": "tall",
+      "height": 3.27
+    },
+    {
+      "type": "jacaranda",
+      "x": -4.1,
+      "z": -15.1,
+      "scale": 1,
+      "rotation": 3.004,
+      "zone": "rear-grove",
+      "height": 3.96
+    },
+    {
+      "type": "jacaranda",
+      "x": 6.8,
+      "z": -10.5,
+      "scale": 1,
+      "rotation": 1.886,
+      "zone": "rear-grove",
+      "height": 3.7
+    },
+    {
+      "type": "cone",
+      "x": 9.3,
+      "z": -13.3,
+      "scale": 1,
+      "rotation": 4.497,
+      "zone": "rear-grove",
+      "variant": "tall",
+      "height": 2.67
+    },
+    {
+      "type": "cone",
+      "x": 3.9,
+      "z": -18,
+      "scale": 1,
+      "rotation": 2.834,
+      "zone": "rear-grove",
+      "variant": "tall",
+      "height": 3.44
+    },
+    {
+      "type": "cone",
+      "x": 1.2,
+      "z": -20.5,
+      "scale": 1,
+      "rotation": 2.058,
+      "zone": "rear-grove",
+      "variant": "short",
+      "height": 2.15
+    },
+    {
+      "type": "cone",
+      "variant": "tall",
+      "x": -2.5,
+      "z": -7.5,
+      "scale": 1,
+      "rotation": 1.2,
+      "height": 3.2,
+      "zone": "rear-replacement-tree"
+    },
+    {
+      "type": "hydrangea",
+      "x": 7.792,
+      "z": -8.726,
+      "scale": 0.585,
+      "rotation": 1.855,
+      "zone": "rear-garden",
+      "variant": "white",
+      "pocket": "rear-01"
+    },
+    {
+      "type": "daisy",
+      "x": 8.695,
+      "z": -8.251,
+      "scale": 0.627,
+      "rotation": 2.248,
+      "zone": "rear-garden",
+      "pocket": "rear-01"
+    },
+    {
+      "type": "hydrangea",
+      "x": -8.977,
+      "z": -13.918,
+      "scale": 0.524,
+      "rotation": 5.777,
+      "zone": "rear-garden",
+      "variant": "white",
+      "pocket": "rear-02"
+    },
+    {
+      "type": "fern",
+      "x": -8.476,
+      "z": -14.675,
+      "scale": 0.576,
+      "rotation": 0.09,
+      "zone": "rear-garden",
+      "pocket": "rear-02"
+    },
+    {
+      "type": "hydrangea",
+      "x": -5.393,
+      "z": -10.834,
+      "scale": 0.647,
+      "rotation": 0.611,
+      "zone": "rear-garden",
+      "variant": "lilac",
+      "pocket": "rear-03"
+    },
+    {
+      "type": "daisy",
+      "x": -4.395,
+      "z": -10.309,
+      "scale": 0.693,
+      "rotation": 1.045,
+      "zone": "rear-garden",
+      "pocket": "rear-03"
+    },
+    {
+      "type": "hydrangea",
+      "x": 1.248,
+      "z": -10.69,
+      "scale": 0.542,
+      "rotation": 4.742,
+      "zone": "rear-garden",
+      "variant": "white",
+      "pocket": "rear-04"
+    },
+    {
+      "type": "fern",
+      "x": 1.767,
+      "z": -11.474,
+      "scale": 0.596,
+      "rotation": 5.359,
+      "zone": "rear-garden",
+      "pocket": "rear-04"
+    },
+    {
+      "type": "hydrangea",
+      "x": 4.85,
+      "z": -14.28,
+      "scale": 0.616,
+      "rotation": 2.056,
+      "zone": "rear-garden",
+      "variant": "lilac",
+      "pocket": "rear-05"
+    },
+    {
+      "type": "daisy",
+      "x": 5.8,
+      "z": -13.78,
+      "scale": 0.66,
+      "rotation": 2.469,
+      "zone": "rear-garden",
+      "pocket": "rear-05"
+    },
+    {
+      "type": "hydrangea",
+      "x": -1.278,
+      "z": -17.418,
+      "scale": 0.524,
+      "rotation": 5.64,
+      "zone": "rear-garden",
+      "variant": "white",
+      "pocket": "rear-06"
+    },
+    {
+      "type": "fern",
+      "x": -0.776,
+      "z": -18.174,
+      "scale": 0.576,
+      "rotation": 6.236,
+      "zone": "rear-garden",
+      "pocket": "rear-06"
+    },
+    {
+      "type": "hydrangea",
+      "x": 1.72,
+      "z": -21.264,
+      "scale": 0.493,
+      "rotation": 2.668,
+      "zone": "rear-garden",
+      "variant": "lilac",
+      "pocket": "rear-07"
+    },
+    {
+      "type": "daisy",
+      "x": 2.48,
+      "z": -20.864,
+      "scale": 0.528,
+      "rotation": 2.999,
+      "zone": "rear-garden",
+      "pocket": "rear-07"
+    },
+    {
+      "type": "rose",
+      "x": -6.7,
+      "z": -7.6,
+      "scale": 1.35,
+      "rotation": 1.15,
+      "zone": "rear-white-rose"
+    },
+    {
+      "type": "rose",
+      "x": 4.3,
+      "z": -7.8,
+      "scale": 1.25,
+      "rotation": 0.35,
+      "zone": "rear-white-rose"
+    }
+  ],
+  "rearDesign": {
+    "depth": "near-wall low flower pockets, middle-depth mixed groves, distant hill groups",
+    "composition": "small asymmetric planting islands separated by grass; fewer secondary shrubs and flower species"
+  },
+  "appearance": {
+    "foliageTextureStrength": 0.32,
+    "coneColor": "#6c8c70",
+    "shrubColor": "#8ba665",
+    "stoneColor": "#e4d7bd"
+  }
+}

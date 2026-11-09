@@ -1,0 +1,38 @@
+{
+  "music": {
+    "object": "架子鼓",
+    "title": "版本资讯",
+    "url": "/chaofangdi-portfolio/drum-kit/?v=12-connected"
+  },
+  "about": {
+    "object": "相框照片",
+    "title": "About Me",
+    "url": "/chaofangdi-portfolio/about-me-v31/"
+  },
+  "cafe": {
+    "object": "留言板",
+    "title": "促活内容&UGC创作",
+    "url": "/chaofangdi-portfolio/clipboards/?v=11",
+    "enabled": true
+  },
+  "monitor": {
+    "object": "四联显示屏",
+    "title": "趣味内容&AI生图",
+    "url": "/chaofangdi-portfolio/fun-content-v10/"
+  },
+  "schedule": {
+    "object": "白板",
+    "title": "SNS排期",
+    "url": "/chaofangdi-portfolio/community-sop-v6/?v=sns-approved-20261108"
+  },
+  "sculpture": {
+    "object": "雕塑",
+    "title": "社区工具",
+    "url": "/chaofangdi-portfolio/community-tools-v7/"
+  },
+  "contact": {
+    "object": "电话",
+    "title": "Connect",
+    "url": "/chaofangdi-portfolio/contact-garden-v3/"
+  }
+}

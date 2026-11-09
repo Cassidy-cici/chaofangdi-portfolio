@@ -1,0 +1,147 @@
+{
+  "version": "garden-r5-shrub-left",
+  "references": [
+    "/Users/fangdi/Desktop/作品集/IMG_5451.jpg",
+    "/Users/fangdi/Desktop/作品集/IMG_5620.jpg"
+  ],
+  "adaptation": "Stylized environment composition inspired by references, harmonized with existing warm miniature house. Not object reconstruction or exact source mesh.",
+  "palette": {
+    "grass": "#71975c",
+    "hill": "#84a462",
+    "deepGrass": "#5b7d4d",
+    "sand": "#ba9667",
+    "stone": "#ccb087",
+    "bark": "#805d3d",
+    "sage": "#688454",
+    "olive": "#8d9c59",
+    "terracotta": "#b47450",
+    "pine": "#557763",
+    "cloud": "#fff8eb",
+    "skyTop": "#7ab2ce",
+    "skyBottom": "#d0e4df"
+  },
+  "camera": {
+    "target": [
+      0,
+      3.7,
+      0
+    ],
+    "height": 13.0,
+    "width": 23.6,
+    "eyeY": 7.1,
+    "distance": 35
+  },
+  "qualityContract": {
+    "features": [
+      "continuous rolling terrain with flat house footprint",
+      "sandstone path terminates at house base center",
+      "rounded broadleaf and tapered evergreen silhouettes",
+      "solid cloud groups separated from roof",
+      "muted warm palette and soft contact shadows"
+    ],
+    "preserve": [
+      "all original house meshes, materials, transforms and lighting",
+      "room focus, picking, dragging and zooming",
+      "desktop-only"
+    ],
+    "reviewViews": [
+      "front",
+      "left quarter",
+      "right quarter",
+      "path closeup"
+    ],
+    "limits": [
+      "hidden terrain layout is inferred",
+      "reference clay texture adapted through subtle geometry, not copied pixels"
+    ]
+  },
+  "foregroundTrees": [
+    [
+      -9.2,
+      1.6,
+      3.05,
+      "round",
+      "olive"
+    ],
+    [
+      -7.9,
+      0.5,
+      3.55,
+      "pine",
+      "pine"
+    ],
+    [
+      8.5,
+      0.4,
+      3.15,
+      "round",
+      "terracotta"
+    ],
+    [
+      10.65,
+      1.5,
+      4.45,
+      "pine",
+      "pine"
+    ],
+    [
+      12.3,
+      3.7,
+      2.55,
+      "round",
+      "sage"
+    ],
+    [
+      -12.1,
+      4.2,
+      2.3,
+      "round",
+      "sage"
+    ]
+  ],
+  "clouds": [
+    [
+      -10.8,
+      8.45,
+      -9,
+      0.94
+    ],
+    [
+      9.5,
+      9.0,
+      -12,
+      1.04
+    ],
+    [
+      -3.5,
+      9.7,
+      -19,
+      0.76
+    ],
+    [
+      16.4,
+      7.1,
+      -20,
+      0.68
+    ],
+    [
+      -18.5,
+      6.5,
+      -16,
+      0.66
+    ]
+  ],
+  "pathColumns": 3,
+  "additionalShrubs": [
+    [
+      -4.21,
+      7.58,
+      0.4
+    ],
+    [
+      4.54,
+      4.8,
+      0.46
+    ]
+  ]
+}

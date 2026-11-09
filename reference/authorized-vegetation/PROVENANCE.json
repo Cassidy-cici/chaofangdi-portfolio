@@ -1,0 +1,22 @@
+{
+  "source": "https://hijessie.space/js/garden.js?v=fd9fa57b5d",
+  "author": "hi.jessie",
+  "sourceSHA256": "f8c6c851f454a858bb19c7c54f064e0cdf5bdb63b45b61d15a1cc53700a5d94b",
+  "excerptSHA256": "42e5254630b780b016d8ac764bedc762c8560913a1e0ba447dcf99eb07599e34",
+  "permission": "User stated author permits vegetation code reuse in this portfolio, 2026-11-08. Permission does not extend to wholesale website copying.",
+  "retained": [
+    "F deterministic random",
+    "D canvas texture helper",
+    "P leaf texture painter",
+    "G displaced sphere",
+    "ball and ballMat assets",
+    "p mesh helper",
+    "PLANTS.ball build method"
+  ],
+  "integrationChanges": [
+    "Extracted only shrub dependencies",
+    "Reduced asset cache to ball geometry and material",
+    "Added a scoped export",
+    "Project wrapper changes placement and uniform scale only"
+  ]
+}
