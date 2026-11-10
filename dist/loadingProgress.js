@@ -1,4 +1,4 @@
-export const intro = window.houseIntroLoader;
+export const intro = window.portfolioLoader;
 export async function loadSceneJson(url) {
     const response = await fetch(url);
     if (!response.ok)
