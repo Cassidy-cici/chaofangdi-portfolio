@@ -1,10 +1,10 @@
 /* One readiness-driven loader for the opening, pages and artwork readers. */
 (()=>{
- if(window.portfolioLoader?.version==='house-progress-v2')return;
+ if(window.portfolioLoader?.version==='house-progress-v3')return;
  const options=window.portfolioLoaderOptions||{},started=performance.now(),delay=300;
  const html=document.documentElement,records=new Map(),sizes=options.assets||{};
  html.classList.add('portfolio-pending');
- let finished=false,failed=false,shown=false,overlay=null,rotation=null,readyPromise=null,value=0,safety=null;
+ let finished=false,failed=false,waiting=false,shown=false,overlay=null,rotation=null,readyPromise=null,value=0,safety=null;
  let status='',line=0;
  const lines=['再吃一颗小圆点…','嚼嚼…马上就好啦'];
  const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -18,7 +18,9 @@
   overlay.querySelector('.loader-number span').textContent=String(value);
   overlay.querySelector('.loader-progress').setAttribute('aria-valuenow',String(value));
   overlay.querySelector('.loader-caption').textContent=status||lines[line];
+  overlay.querySelector('button').hidden=!(failed||waiting);
   overlay.dataset.progress=String(value);
+  overlay.dataset.state=failed?'error':waiting?'waiting':'loading';
  }
  function ensureOverlay(){
   if(!document.body)return null;
@@ -34,7 +36,7 @@
   if(!ensureOverlay()){document.addEventListener('DOMContentLoaded',show,{once:true});return;}
   if(shown)return;
   shown=true;overlay.hidden=false;document.body.classList.add('is-loading');document.body.dataset.loaderShown='true';
-  if(!reduced&&!failed)rotation=setInterval(()=>{line=1-line;paint();},1500);
+  if(!reduced&&!failed&&!waiting)rotation=setInterval(()=>{line=1-line;paint();},1500);
  }
  const timer=setTimeout(show,delay);
  function set(next){if(finished||failed)return;value=Math.max(value,Math.min(99,Math.floor(next)));paint();}
@@ -55,18 +57,23 @@
  function finish(reason='ready'){
   if(finished)return;
   finished=true;cleanup();
-  if(reason==='ready'){value=100;paint();}
+  if(reason==='ready'){waiting=false;value=100;paint();}
   if(overlay)overlay.hidden=true;
   html.classList.remove('portfolio-pending');
   if(document.body){document.body.classList.remove('is-loading');Object.assign(document.body.dataset,{loadingComplete:'true',loaderShown:String(shown),loaderResult:reason,loaderElapsed:String(Math.round(performance.now()-started))});}
  }
  function fail(){
-  if(finished||failed)return;failed=true;clearTimeout(safety);clearTimeout(slow);clearInterval(rotation);
+  if(finished||failed)return;failed=true;clearTimeout(timer);clearTimeout(safety);clearTimeout(slow);clearInterval(rotation);
   status='暂时没能加载完成，请再试一次。';show();paint();
-  if(overlay){overlay.dataset.state='error';overlay.querySelector('button').hidden=false;}
+  if(document.body)Object.assign(document.body.dataset,{loadingComplete:'false',loaderResult:'error'});
  }
- const slow=setTimeout(()=>{if(finished||failed)return;status='网络有点慢，还在加载中…';show();paint();if(overlay)overlay.querySelector('button').hidden=false;},30000);
- if(options.timeout!==0)safety=setTimeout(()=>finish('timeout'),options.timeout||15000);
+ function waitLonger(){
+  if(finished||failed)return;waiting=true;clearInterval(rotation);
+  status='网络有点慢，还在加载中…';show();paint();
+  if(document.body)Object.assign(document.body.dataset,{loadingComplete:'false',loaderResult:'waiting'});
+ }
+ const slow=setTimeout(waitLonger,30000);
+ if(options.timeout!==0)safety=setTimeout(waitLonger,options.timeout||15000);
  function bounded(promise,ms){return new Promise(resolve=>{const id=setTimeout(resolve,ms);Promise.resolve(promise).catch(()=>{}).then(()=>{clearTimeout(id);resolve();});});}
  const nextPaint=()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
  async function waitForPage(){
@@ -83,10 +90,10 @@
   })]);
   if(finished||failed)return;set(96);await nextPaint();if(!failed)finish();
  }
- window.portfolioLoader={version:'house-progress-v2',delay,outline,level,visualMarkup,plan,transfer,complete,started(){set(3);},stage(message){if(!finished&&!failed){status=message;paint();}},fail,
+ window.portfolioLoader={version:'house-progress-v3',delay,outline,level,visualMarkup,plan,transfer,complete,started(){set(3);},stage(message){if(!finished&&!failed){status=message;paint();}},fail,
   ready(){return readyPromise??=waitForPage();}};
  if(options.assets)plan(Object.keys(sizes));
  window.addEventListener('pageshow',event=>{if(event.persisted)finish('restored');});
- window.addEventListener('error',event=>{if(options.manual&&(!event.target||event.target===window||event.target.tagName==='SCRIPT'))fail();},true);
- window.addEventListener('unhandledrejection',()=>{if(options.manual)fail();});
+ window.addEventListener('error',event=>{if(!event.target||event.target===window||event.target.tagName==='SCRIPT')fail();},true);
+ window.addEventListener('unhandledrejection',()=>fail());
 })();
